@@ -1,0 +1,54 @@
+
+.Header-outer-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  /* background-color: transparent; */
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  /* background-color: red; */
+
+}
+
+.Header-container {
+  
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-Left lu {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  width: 140%;
+}
+
+.Header-Left li {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+.Header-Left li img {
+  font-size: 60px; 
+}
+
+.Header-Left li img {
+  width: 80px; 
+  height: 40px; 
+}
+.Header-container li {
+  list-style-type: none;
+}
+
+.Header-right ul {
+
+  display: flex;
+  justify-content: space-between;
+  
+}

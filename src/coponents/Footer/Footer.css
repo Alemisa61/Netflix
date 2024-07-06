@@ -3,6 +3,7 @@
     color: grey;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .footer-inner-container{
 
@@ -11,6 +12,7 @@
     /* display: flex;
     justify-content: space-between; */
     margin-left: 200px;
+   
 }
 .footer-icons{
 
